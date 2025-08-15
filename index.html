@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Alles Gute zum Geburtstag, Clara!</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #ffe6f0, #e6f7ff);
+    }
+    .wrap {
+      min-height: 100%;
+      display: grid;
+      place-items: center;
+      padding: 2rem;
+    }
+    .card {
+      background: white;
+      padding: 2rem 3rem;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      max-width: 600px;
+      text-align: center;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #ff4d88;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1.4rem;
+      color: #333;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .balloons {
+      font-size: 3rem;
+      animation: float 3s ease-in-out infinite;
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="card">
+      <div class="balloons">🎈🎉🎂</div>
+      <h1>Alles Gute zum Geburtstag, Clara!</h1>
+      <p>Möge dein Tag voller Freude, Lachen und schöner Momente sein. 🥳</p>
+      <div class="balloons">🎂🎉🎈</div>
+    </div>
+  </main>
+</body>
+</html>
